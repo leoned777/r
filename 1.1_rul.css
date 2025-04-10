@@ -1,0 +1,96 @@
+.ocnova {
+    size: px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 5px solid rgb(27, 10, 43);
+    background-color: #140f31;
+    color: #ffffff;
+    box-shadow: 17px 6px 14px rgb(65, 60, 60);
+}
+    
+body{
+    text-alig: center;
+    margin: auto;
+    max-width: 1000px;
+    padding: 9px;
+    background: linear-gradient(to top, rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0));
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    color: rgb(255, 255, 255);
+    scroll-behavior:smooth;
+    }
+
+.rulus p{
+padding: 10px;
+margin: 20px;
+border: 5px solid rgb(68, 68, 68);
+background-color:#272727;
+border-radius: 25px;
+
+}
+
+.liv {
+    font: bolt sans-serif;
+    box-sizing: 2px;
+    border: 5px solid rgb(52, 0, 100);
+background-color:#4a37b4;
+border-radius: 25px;
+width: 25%;
+}
+.info{
+
+}
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: all .4s;
+}
+a:hover {
+color: red;
+font-size: 30px;
+width: 110%;
+text-decoration:h;
+ ;
+}
+.photo {
+    box-shadow: 15px 4px 14px rgba(82, 78, 78, 0.25);
+    margin: 10px;
+    border-radius: 20px;
+}
+.rulus p:hover{
+    background: rgb(144, 107, 233);
+    border: 5px solid black ;
+   break-before: left;
+}
+.ava {
+    width: 300px;
+    border-radius: 40px;
+    margin: 20px;
+    box-shadow: 15px 4px 14px rgb(65, 60, 60);
+    border: 5px solid #211a49;
+
+
+}
+.admin {
+    border: solid 5px rgb(17, 24, 23);
+    margin: 20px;
+    box-shadow: 15px 4px 14px rgb(65, 60, 60);
+    
+
+}
+.pachalka:after {
+    content: "-молодец, владелец чата";
+    opacity: 0;
+    transform: translateX(10px);
+    transition: all 3.3s ease-in-out 1.5s;
+  }
+  
+  .pachalka:hover:after {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  .linear-gradient {
+    background: linear-gradient(to left, red, blue); /* можно также использовать 270deg */
+}
+.info-group {
+    font-size: 20px;
+}
