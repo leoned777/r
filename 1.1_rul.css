@@ -14,7 +14,7 @@ body{
     max-width: 1000px;
     padding: 9px;
     background: linear-gradient(to top, rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0));
-    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    box-shadow: 4px 4px 14px rgba(255, 0, 0, 0.25);
     color: rgb(255, 255, 255);
     scroll-behavior:smooth;
     }
@@ -36,6 +36,30 @@ background-color:#4a37b4;
 border-radius: 25px;
 width: 25%;
 }
+.navbar li{
+    display: inline;
+    margin: 0;
+    margin-right: 10px;
+    padding: 0;
+    
+}
+.navbar {
+    text-align: center;
+    background: #4a37b4;
+    height: 70px;
+    width: 100%;
+    margin: ;
+    padding: ;
+    font-size: 20px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+.navbar a:hover{
+    color: yellow;
+    font-size: 20px;
+}
 .info{
 
 }
@@ -49,6 +73,7 @@ color: red;
 font-size: 30px;
 width: 110%;
 text-decoration:h;
+
  ;
 }
 .photo {
@@ -60,6 +85,7 @@ text-decoration:h;
     background: rgb(144, 107, 233);
     border: 5px solid black ;
    break-before: left;
+   width: ;
 }
 .ava {
     width: 300px;
@@ -70,27 +96,55 @@ text-decoration:h;
 
 
 }
-.admin {
+/* .admin {
     border: solid 5px rgb(17, 24, 23);
     margin: 20px;
     box-shadow: 15px 4px 14px rgb(65, 60, 60);
     
 
-}
+} */
+ /* .admins {
+        display: flex;
+        gap: 20px;
+        margin: 20px;
+        padding: 20px;
+        flex-direction: column;
+    } */
+    /* .admin-plitka{
+        /* width: 300px;
+        height: 150px; */
+        /* border: solid; */
+     
+    .flexbox-admins{
+        display: flex;
+        gap: 50px;
+        padding: 10px;
+        margin: 0px;
+    }
+
 .pachalka:after {
     content: "-молодец, владелец чата";
     opacity: 0;
     transform: translateX(10px);
     transition: all 3.3s ease-in-out 1.5s;
+    /* position: absolute; */
   }
   
   .pachalka:hover:after {
     opacity: 1;
     transform: translateX(0);
   }
-  .linear-gradient {
+  /* .linear-gradient {
     background: linear-gradient(to left, red, blue); /* можно также использовать 270deg */
-}
+ 
 .info-group {
     font-size: 20px;
+}
+.flexbox-admins  p {
+     max-width: 300px;
+}
+@media (max-width: 850px) {
+    .flexbox-admins{
+        display: block;
+    }
 }
