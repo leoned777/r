@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cervers.css">
+</head>
+<body>
+    <button class="accordion">Сервер 1</button>
+    
+    <div class="input">
+        <img src="" alt="аватарка" class="ava"> <img>
+        <p>Описание</p>
+        
+    </div>
+
+    <button class="accordion">Сервер 2</button>
+    
+    <div class="input">
+        <img src="" alt="аватарка" class="ava">
+       
+        
+        <p>Описание</p>
+    </div>
+
+    <button class="accordion">Сервер 3</button>
+   
+    <div class="input">
+        <img src="" alt="аватарка" class="ava">
+        
+        <p>Описание</p>
+        
+    </div>
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function(){
+                this.classList.toggle("active");
+                var input = this.nextElementSibling;
+                if (input.style.maxHeight) {
+                    input.style.maxHeight = null;
+                } else {
+                    input.style.maxHeight = input.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
+</body>
